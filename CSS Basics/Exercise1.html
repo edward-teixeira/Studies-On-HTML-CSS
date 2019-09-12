@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Side Menu</title>
+    <style>
+      /* Nav Bar*/
+      .nav-bar {
+        list-style: none;
+        background-color: grey;
+        border-radius: 5px;
+        padding: 0;
+        margin: 0;
+        overflow: auto;
+      }
+      .nav-bar li {
+        float: left;
+      }
+      .nav-bar a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        font-size: 20px;
+      }
+      .nav-bar li a:hover {
+        background-color: cornflowerblue;
+      }
+      /* Side Menu */
+      #container {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      #side-list {
+        list-style: none;
+        line-height: 2.5em;
+        border-radius: 10px;
+        max-width: 300px;
+        border: 2px solid silver;
+        padding: 20px;
+      }
+      #side-list li {
+        font-size: 18px;
+        border-bottom: 1px solid silver;
+      }
+
+      #side-list li:last-child {
+        border: none;
+      }
+      #side-list li:hover {
+        color: teal;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Side Menu-->
+    <div id="container">
+      <!-- Navaigation Bar-->
+      <ul class="nav-bar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Sections</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <ul id="side-list">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Articles</li>
+      </ul>
+    </div>
+  </body>
+</html>
