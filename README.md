@@ -45,7 +45,7 @@ This repository is dedicated to keeptrack of my studies, with lectures notes, co
 - Inheritance and Contrast;
 - Functions and Mixins;
 
-**- [ ] Bootstrap:**
+**- [X] Bootstrap:**
 
 - Typography & Utilities;
 - CSS Components;
